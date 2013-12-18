@@ -13,6 +13,8 @@
     <File Name="factorial.cpp"/>
     <File Name="permutation.h"/>
     <File Name="permutation.cpp"/>
+    <File Name="subset.h"/>
+    <File Name="subset.cpp"/>
   </VirtualDirectory>
   <Settings Type="Executable">
     <GlobalSettings>
