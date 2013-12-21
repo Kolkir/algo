@@ -17,6 +17,8 @@
     <File Name="subset.cpp"/>
     <File Name="combinations.h"/>
     <File Name="combinations.cpp"/>
+    <File Name="closestpair.h"/>
+    <File Name="closestpair.cpp"/>
   </VirtualDirectory>
   <Settings Type="Executable">
     <GlobalSettings>
