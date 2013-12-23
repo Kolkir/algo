@@ -21,6 +21,7 @@
     <File Name="closestpair.cpp"/>
     <File Name="search.h"/>
     <File Name="search.cpp"/>
+    <File Name="qsort.h"/>
   </VirtualDirectory>
   <Settings Type="Executable">
     <GlobalSettings>

@@ -4,6 +4,7 @@
 #include "combinations.h"
 #include "closestpair.h"
 #include "search.h"
+#include "qsort.h"
 
 #include <iostream>
 
@@ -21,7 +22,10 @@ int main()
 	//std::cout << "\nClosest Pair:\n";
 	//algo::closestpair_test();	
 	
-	std::cout << "\nSearch:\n";
-	algo::search_test();
+	//std::cout << "\nSearch:\n";
+	//algo::search_test();
+	
+	std::cout << "\nQuick sort:\n";
+	algo::qsort_test();
     return 0;
 }
