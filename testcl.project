@@ -22,6 +22,7 @@
     <File Name="search.h"/>
     <File Name="search.cpp"/>
     <File Name="qsort.h"/>
+    <File Name="qsort.cpp"/>
   </VirtualDirectory>
   <Settings Type="Executable">
     <GlobalSettings>
