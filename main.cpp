@@ -5,6 +5,7 @@
 #include "closestpair.h"
 #include "search.h"
 #include "qsort.h"
+#include "heapsort.h"
 
 #include <iostream>
 
@@ -25,7 +26,10 @@ int main()
 	//std::cout << "\nSearch:\n";
 	//algo::search_test();
 	
-	std::cout << "\nQuick sort:\n";
-	algo::qsort_test();
+	//std::cout << "\nQuick sort:\n";
+	//algo::qsort_test();
+	
+	std::cout << "\nHeap sort:\n";
+	algo::heapsort_test();
     return 0;
 }
