@@ -6,6 +6,7 @@
 #include "search.h"
 #include "qsort.h"
 #include "heapsort.h"
+#include "mergesort.h"
 
 #include <iostream>
 
@@ -29,7 +30,10 @@ int main()
 	//std::cout << "\nQuick sort:\n";
 	//algo::qsort_test();
 	
-	std::cout << "\nHeap sort:\n";
-	algo::heapsort_test();
+	//std::cout << "\nHeap sort:\n";
+	//algo::heapsort_test();
+	
+	std::cout << "\nMerge sort:\n";
+	algo::mergesort_test();
     return 0;
 }

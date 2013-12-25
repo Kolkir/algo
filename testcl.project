@@ -25,6 +25,8 @@
     <File Name="qsort.cpp"/>
     <File Name="heapsort.h"/>
     <File Name="heapsort.cpp"/>
+    <File Name="mergesort.h"/>
+    <File Name="mergesort.cpp"/>
   </VirtualDirectory>
   <Settings Type="Executable">
     <GlobalSettings>
