@@ -9,8 +9,8 @@ namespace algo
 {
 void mergesort_test()
 {
-	std::vector<int> m1 = {2, 4, 6, 8, 10};
-	std::vector<int> m2 = {1, 3, 5, 7, 9};	
+	std::vector<int> m1 = {2, 4, 6, 8, 10, 56,778,99};
+	std::vector<int> m2 = {1, 3, 5, 7, 9, 70};	
 	
 	std::vector<int> m;
 	
