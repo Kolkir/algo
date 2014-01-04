@@ -7,6 +7,7 @@
 #include "qsort.h"
 #include "heapsort.h"
 #include "mergesort.h"
+#include "numeric.h"
 
 #include <iostream>
 
@@ -33,7 +34,10 @@ int main()
 	//std::cout << "\nHeap sort:\n";
 	//algo::heapsort_test();
 	
-	std::cout << "\nMerge sort:\n";
-	algo::mergesort_test();
+	//std::cout << "\nMerge sort:\n";
+	//algo::mergesort_test();
+    
+    std::cout << "\nNumeric:\n";
+	algo::numeric_test();
     return 0;
 }
