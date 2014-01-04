@@ -29,6 +29,8 @@
     <File Name="mergesort.cpp"/>
     <File Name="numeric.h"/>
     <File Name="numeric.cpp"/>
+    <File Name="findstring.h"/>
+    <File Name="findstring.cpp"/>
   </VirtualDirectory>
   <Settings Type="Executable">
     <GlobalSettings>

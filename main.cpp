@@ -8,6 +8,7 @@
 #include "heapsort.h"
 #include "mergesort.h"
 #include "numeric.h"
+#include "findstring.h"
 
 #include <iostream>
 
@@ -37,7 +38,11 @@ int main()
 	//std::cout << "\nMerge sort:\n";
 	//algo::mergesort_test();
     
-    std::cout << "\nNumeric:\n";
-	algo::numeric_test();
+    //std::cout << "\nNumeric:\n";
+	//algo::numeric_test();
+    
+    std::cout << "\nFind string:\n";
+	algo::find_string_test();
+
     return 0;
 }
