@@ -9,6 +9,7 @@
 #include "mergesort.h"
 #include "numeric.h"
 #include "findstring.h"
+#include "graph.h"
 
 #include <iostream>
 
@@ -41,8 +42,11 @@ int main()
     //std::cout << "\nNumeric:\n";
 	//algo::numeric_test();
     
-    std::cout << "\nFind string:\n";
-	algo::find_string_test();
+    //std::cout << "\nFind string:\n";
+	//algo::find_string_test();
+
+	std::cout << "\nGraph:\n";
+	algo::graph_test();
 
     return 0;
 }

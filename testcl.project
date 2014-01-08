@@ -31,6 +31,8 @@
     <File Name="numeric.cpp"/>
     <File Name="findstring.h"/>
     <File Name="findstring.cpp"/>
+    <File Name="graph.h"/>
+    <File Name="graph.cpp"/>
   </VirtualDirectory>
   <Settings Type="Executable">
     <GlobalSettings>
