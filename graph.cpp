@@ -128,10 +128,25 @@ void Graph::addEdge(const Edge& e)
 
 void Graph::breadthFirstVisit(std::function<void (const std::string&)> callback)
 {
+    this->cleanMarks();
 }
 
 void Graph::depthFirstVisit(std::function<void (const std::string&)> callback)
 {
+    this->cleanMarks();
+}
+
+void Graph::cleanMarks()
+{
+    std::for_each(this->adjList.begin(), this->adjList.end(),
+    [](AdjListPair& adjPair)
+    {
+        std::for_each(adjPair.second.begin(), adjPair.second.end(),
+        [](AdjRowValue& value)
+        {
+            std::get<2>(value) = false;
+        });
+    });
 }
 
 void printVert(const std::string& v)

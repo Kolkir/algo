@@ -37,7 +37,8 @@ public:
 private:
     void cleanMarks();
 private:
-    typedef std::list<std::tuple<std::string, double, bool>> AdjRow;
+    typedef std::tuple<std::string, double, bool> AdjRowValue;
+    typedef std::list<AdjRowValue> AdjRow;
     typedef std::pair<std::string, AdjRow> AdjListPair;
     typedef std::list<AdjListPair> AdjList;
     AdjList adjList;
